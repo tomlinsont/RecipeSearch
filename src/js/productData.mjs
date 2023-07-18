@@ -22,7 +22,7 @@ export function getData(category = "chicken") {
 }
 */
 
-export async function findProductById(label) {
+export async function findProductByLabel(label) {
   const response = await fetch(baseURL + `recipe/${label}`);
   const product = await convertToJson(response);
   return product.Result;
