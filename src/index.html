@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Collection | Home</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,300;1,200&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/js/main.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider" id="main-header"></header>
+    <main class="divider">
+      <div>
+        <h3>Search recipes for your favorite dishes</h3>
+      </div>
+      <section class="list-catagory">
+        <h1 class="text-3xl font-bold text-center mb-6">Recipe Search</h1>
+
+        <form id="searchForm" class="flex justify-center mb-4">
+            <input type="text" id="searchInput" placeholder="Search recipes"
+                class="border border-gray-400 rounded-l px-4 py-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-gray-700 text-white">
+            <button type="submit" id="searchButton"
+                class="bg-blue-500 hover:bg-blue-600 text-white rounded-r px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">Search</button>
+        </form>
+      </section>
+    </main>
+    <footer id="main-footer"></footer>
+  </body>
+</html>
